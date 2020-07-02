@@ -1,0 +1,68 @@
+body{
+    justify-content: center;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.namecity{
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    margin: 10px;
+}
+
+.ifsc{
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    margin: 10px;
+}
+
+form{
+    justify-content: center;
+    text-align: center;
+    display: block;
+    box-shadow: inset 3px 2px 5px 2px blueviolet;
+    padding: 30px;
+    margin: 10px;
+}
+
+input[type=text]{
+    padding: 10px;
+    border:none;
+    border-bottom: 2px solid grey;
+    border-radius: 30px;
+    width: 100%;
+    height: 30px;
+}
+
+label{
+    padding: 10px;
+    font-size: 20px;
+}
+
+input[type=submit]{
+    margin: 10px;
+    justify-content: center;
+    background-color: lightblue;
+    border-radius: 30px;
+    height: 40px;
+    width: 50%;
+    margin-left: 25%;
+    border-color: blueviolet;
+    background-color: blueviolet;
+    color: white ;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.option{
+    font-size: 20px;
+    font-style: italic;
+    color: blueviolet;
+}
+
+h2{
+    color: blueviolet;
+}

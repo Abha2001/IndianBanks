@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{% static "css/search.css" %}" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+    <h2>Enter Bank Details</h2>
+    <form class="namecity" method="get" action="/getbranches/">
+        {{form1}}
+        <input type="submit" value="submit">
+    </form>
+    <div class="option">OR</div>
+    <form class="ifsc" method="get" action="/getbranches/">
+        {{form2}}
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
